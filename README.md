@@ -1,4 +1,4 @@
-# Template de projeto JSF no Jakarte EE 8 (CDI)
+# Calculadora IMC
 Este projeto está configurado para JSF seguindo a estrutura de projeto Maven, para ser executado em um servidor Jakarta EE (no exemplo, Payara).
 
  
@@ -9,5 +9,3 @@ Este projeto está configurado para JSF seguindo a estrutura de projeto Maven, p
  * Git e Maven
  
  Por ser um este um projeto Maven, observe a necessidade de fazer os ajustes no "Deployment" do projeto eclipse.
-
-### Prof Claudio Martins
