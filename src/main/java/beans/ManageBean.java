@@ -42,10 +42,6 @@ public class ManageBean implements Serializable{
 	public void setPeso(Double peso) {
 		this.peso = peso;
 	}
-
-	public String showResult() {
-		return "index.xhtml?faces-redirect=true";	
-	}
 	
 	public String getResult() {
 		if(getIdade() == null || getAltura() == null || getPeso() == null) {
