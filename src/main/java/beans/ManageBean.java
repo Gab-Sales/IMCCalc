@@ -43,11 +43,18 @@ public class ManageBean implements Serializable{
 		this.peso = peso;
 	}
 	
+	public void limpar() {
+		setIdade(null);
+		setAltura(null);
+		setPeso(null);
+	}
+	
 	public String getResult() {
 		if(getIdade() == null || getAltura() == null || getPeso() == null) {
-			return "Preencha os dados";
-		}
-		return calculadora.calcularIMC(getIdade(),getAltura(),getPeso());
+			return "Preencha todos os dados";
+		}	
+		String retorno = calculadora.calcularIMC(getIdade(),getAltura(),getPeso());	
+		return retorno;
 	}
 	
 }
